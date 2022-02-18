@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Vitznauer Hafen",
+        "url": "http://www.projectaline.ch/cam/vitznau/aktuell.jpg",
+        "description": "Vitznauer Webcam am See",
+        "credit": "http://dot-com.ch/",
+        "creditname": "dot-com.ch"
+    },
+    {
+        "title": "Hinterbergen",
+        "url": "https://www.hinterbergen.ch/webcams/01_rest/aktuell.jpg",
+        "description": "Hinterbergen Webcam",
+        "credit": "https://hinterbergen.ch/",
+        "creditname": "hinterbergen.ch"
+    },
+    {
+        "title": "Vom Mätzli ins Dorf",
+        "url": "http://www.sabogmbh.ch/Webcam_Vitznau.jpg",
+        "description": "Blick vom Mätzli ins Dorf",
+        "credit": "http://www.sabogmbh.ch/",
+        "creditname": "SABO Automation und Elektro"
+    }
+]

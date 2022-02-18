@@ -1,0 +1,11 @@
+.navItem {
+  padding: 0 30px;
+}
+
+.navItem p {
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgb(255, 204, 204);
+}

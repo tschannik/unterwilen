@@ -1,0 +1,19 @@
+header {
+  height: 80px;
+}
+
+header div {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  height: 100%;
+  display: flex;
+}
+
+.logo {
+  align-self: center;
+  height: 80%;
+}

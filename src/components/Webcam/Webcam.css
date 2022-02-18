@@ -1,0 +1,25 @@
+.webcam {
+  width: 100%;
+}
+.webcam img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.webcam p {
+  display: block;
+  width: 90%;
+  margin: auto;
+  font-size: 14px;
+}
+
+.webcam h2 {
+  margin-top: 20px;
+}
+
+.webcam a {
+  color: #557a95;
+}

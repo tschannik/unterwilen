@@ -1,14 +1,24 @@
 import { Link } from "react-router-dom";
+import NavItem from "../NavItem/NavItem";
 import "./Navigation.css";
 
-export default function Navigation() {
+const Navigation = () => {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-      </ul>
+      <Link to="/">
+        <NavItem title="Home" />
+      </Link>
+      <Link to="webcams">
+        <NavItem title="Webcams" />
+      </Link>
+      <Link to="kontakt">
+        <NavItem title="Kontakt" />
+      </Link>
+      <Link to="impressum">
+        <NavItem title="Impressum" />
+      </Link>
     </nav>
   );
-}
+};
+
+export default Navigation;

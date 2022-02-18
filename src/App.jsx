@@ -1,25 +1,29 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Impressum from "./pages/Impressum/Impressum";
+import Home from "./pages/Home/Home";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Webcams from "./pages/Webcams/Webcams";
 
-export default function App() {
+const App = () => {
   return (
     <div>
-      <p>Moin</p>
       <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />}>
-            <Route index element={<Home />} />
-            <Route path="impressum" element={<Impressum />}></Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <div class="max-width-1100">
+        <div class="bordered-box">
+          <Routes>
+            <Route index path="/" element={<Home />} />
+            <Route exact path="impressum" element={<Impressum />}></Route>
+            <Route exact path="webcams" element={<Webcams />}></Route>
+            {/* <Route exact path="kontakt" element={<Kontakt />}></Route> */}
+          </Routes>
+        </div>
+      </div>
       <Footer />
     </div>
   );
-}
+};
+
+export default App;
