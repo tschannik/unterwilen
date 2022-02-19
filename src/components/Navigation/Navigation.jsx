@@ -11,11 +11,8 @@ const Navigation = () => {
       <Link to="webcams">
         <NavItem title="Webcams" />
       </Link>
-      <Link to="kontakt">
-        <NavItem title="Kontakt" />
-      </Link>
       <Link to="impressum">
-        <NavItem title="Impressum" />
+        <NavItem title="Kontakt & Impressum" />
       </Link>
     </nav>
   );

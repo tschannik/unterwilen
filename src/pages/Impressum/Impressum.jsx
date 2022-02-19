@@ -5,6 +5,12 @@ const Impressum = () => {
     <>
       <h1>Impressum</h1>
       <div class="padding">
+        <h2>Allgemeine Anfragen</h2>
+        <p>
+          <a href="mailto:info@unterwilen.ch" target="_black">
+            info@unterwilen.ch
+          </a>
+        </p>
         <h2>Kontaktadresse</h2>
         <p>
           IG Unterwilen
