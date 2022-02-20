@@ -5,7 +5,7 @@ import webcamfile from "./webcamfile.json";
 
 const Webcams = () => {
   return (
-    <main>
+    <>
       <h1>Webcams</h1>
       <div class="webcam-container">
         {webcamfile.map((webcam) => {
@@ -20,7 +20,7 @@ const Webcams = () => {
           );
         })}
       </div>
-    </main>
+    </>
   );
 };
 

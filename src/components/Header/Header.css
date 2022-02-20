@@ -16,4 +16,6 @@ header a {
 .logo {
   align-self: center;
   height: 80%;
+  margin-top: 10px;
+  box-shadow: none;
 }

@@ -1,5 +1,5 @@
 .navItem {
-  padding: 0 30px;
+  padding: 0 0 0 60px;
 }
 
 .navItem p {
@@ -7,5 +7,4 @@
   line-height: 50px;
   font-size: 18px;
   font-weight: 600;
-  text-shadow: 1px 1px 4px rgb(255, 204, 204);
 }
