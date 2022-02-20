@@ -2,7 +2,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <main>
+    <>
       <h1>Home</h1>
       <div class="home">
         <h2>Über das Quartier</h2>
@@ -27,13 +27,12 @@ const Home = () => {
         </ul>
         <h2>Lageplan</h2>
         <img
-          class="border"
           src="Lageplan_IG_Unterwilen.png"
           alt="Lageplan IG Unterwilen"
         ></img>
         <img src="Unterwilen.jpg" alt="Sicht auf die Unterwilen"></img>
       </div>
-    </main>
+    </>
   );
 };
 
