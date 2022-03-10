@@ -8,3 +8,16 @@
   font-size: 18px;
   font-weight: 600;
 }
+
+@media (max-width: 610px) {
+  .navItem {
+    padding: 0 10px 0 10px;
+  }
+
+  .navItem p {
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

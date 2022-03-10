@@ -10,7 +10,6 @@ header div {
 
 header a {
   height: 100%;
-  display: flex;
 }
 
 .logo {
@@ -18,4 +17,13 @@ header a {
   height: 80%;
   margin-top: 10px;
   box-shadow: none;
+}
+
+@media (max-width: 610px) {
+  /* .logo {
+    width: 100%;
+  } */
+  .logo {
+    display: none;
+  }
 }
